@@ -1,0 +1,102 @@
+html.sr .reveal {
+	visibility: hidden;
+}
+
+:root {
+	--bg-black: #000000;
+	--bg-blue: #14213D;
+	--bg-orange: #FCA311;
+	--bg-occupation: #865300;
+	--bg-platinum: #eceae8;
+	--bg-orange-green: #e3ac2c;
+	--anim-duration: 360ms;
+	--bg-white: #FFFFFF;
+	--bg-green: #7fce99;
+	--bg-resume-gradient: linear-gradient(to right, var(--bg-orange) 0%, var(--bg-orange-green) 51%, var(--bg-green) 100%);
+}
+
+input,
+textarea,
+button,
+select,
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+.text-orange {
+	color: var(--bg-orange)
+}
+
+.bg-platinum {
+	background-color: var(--bg-platinum);
+}
+
+.roboto-slab {
+	font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	background-color: line;
+}
+
+:is(h1, h2, h3, h4, h5, h6, .roboto-slab) {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+h3 a {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+h1 span {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.text-blue {
+	color: var(--bg-blue)
+}
+
+.bg-orange {
+	background-color: var(--bg-orange)
+}
+
+.out-none {
+	outline: 0 !important;
+}
+
+.transition-new {
+	transition-property: background-color, border-color, color, background-position, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+	transition-property: background-color, border-color, color, background-position, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+	transition-property: background-color, border-color, color, background-position, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+}
+
+.extended-line {
+	background-size: 20% 2px;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.orange-underline {
+	background-image: linear-gradient(to right, var(--bg-orange-green), var(--bg-orange)) !important;
+}
+
+.social-icon:hover {
+	animation-name: spin;
+	animation-duration: 400ms;
+	animation-iteration-count: 2;
+	animation-timing-function: ease-in;
+}
