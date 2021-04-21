@@ -140,6 +140,7 @@
 					<div class="ml-20">
             <a href="https://www.credly.com/badges/bb44b52c-0ceb-42bc-8305-0ca7b7e3c6fb" rel="noopener noreferrer" class="mb-8 text-2xl md:text-2xl block roboto-slab lg:text-4xl">AWS certified developers associate</a>
             <hr class="border-site" />
+
           </div>
 				</li>
 				<li class="mb-8 list-item-custom-cert">
