@@ -1,0 +1,24 @@
+{
+	"short_name": "Folababa",
+	"name": "Adekunbi Adefolarin",
+	"icons": [{
+			"src": "fWhite.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "fWhite192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "fWhite512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#eceae8"
+}
