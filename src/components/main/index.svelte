@@ -2,14 +2,14 @@
 	import Hi from "./Hi.svelte";
 	import About from "./About.svelte";
 	import Experience from "./Experience.svelte";
-	import Skills from "./Skills.svelte";
+	import Work from "./Work.svelte";
 	import Contact from "./Contact.svelte";
 </script>
 
-<main>
+<div class="mx-auto container px-4 lg:px-12 xl:px-16 2xl:px-20">
 	<Hi />
 	<About />
 	<Experience />
-	<Skills />
+	<Work />
 	<Contact />
-</main>
+</div>

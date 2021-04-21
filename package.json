@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear --host --single"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -20,9 +20,11 @@
   },
   "dependencies": {
     "autoprefixer": "^9",
+    "lodash.debounce": "^4.0.8",
     "postcss": "^7",
     "scrollreveal": "^4.0.9",
     "sirv-cli": "^1.0.0",
+    "swiper": "^6.5.6",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

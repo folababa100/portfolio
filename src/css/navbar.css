@@ -8,18 +8,47 @@
 	background-position: right center;
 }
 
-.nav-item-underline {
-	display: inline-block;
-	text-decoration: none;
-	background-image: linear-gradient(to right, #989898, #000);
-	background-position: bottom left;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	transition: background-size .5s ease;
+.logo {
+	transform: translateY(0px);
+	transition: transform 1s ease;
 }
 
-.nav-item-underline:hover {
-	background-size: 100% 2px;
+.alt-section__move {
+	transform: translateY(var(--translate-move));
+	transition: transform .2s ease;
+}
+
+.alt-section-span {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.alt-section-span-active {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility .2s ease,
+		opacity .2s ease;
+}
+
+.logo.logo-toggled {
+	transform: translateY(-56px);
+}
+
+.alt-section {
+	transform: translateY(-215px);
+	/* visibility: hidden; */
+}
+
+.alt-section.alt-section-toggled {
+	transform: translateY(0px);
+	/* visibility: visible; */
+	transition: transform .8s ease;
+}
+
+.alt-section__text {
+	transform: rotate(0.25turn);
+	width: max-content;
+	transform-origin: bottom left;
 }
 
 .list-item-custom-cert {
@@ -53,10 +82,58 @@
 	height: 25px;
 	width: 30px;
 	padding: 0%;
-	margin: 0 20px;
 	transition: opacity .2s;
 	align-items: stretch;
 	justify-content: space-between;
+}
+
+.btn-illuminate {
+	border: 1px solid var(--bg-green);
+	padding: 0.25rem;
+	border-radius: 50%;
+	background-color: var(--bg-green);
+	color: white;
+	transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.btn-illuminate:hover {
+	background-color: transparent;
+	color: var(--bg-green);
+}
+
+.icon-bulb {
+	transform: rotate(352deg);
+}
+
+.nav-underline {
+	background-size: 100% 70px;
+	background-image: linear-gradient(45deg, var(--bg-platinum), var(--bg-platinum));
+	background-repeat: no-repeat;
+	background-position: right;
+	/* opacity: 1; */
+	transition: background-size 0.75s ease, background-image 2s ease;
+}
+
+.nav-underline.nav-toggled {
+	/* opacity: 0; */
+	/* background-image: linear-gradient(45deg, #eceae800, #eceae800); */
+	background-size: 0% 70px;
+}
+
+.nav-underline::after {
+	background-image: linear-gradient(90deg, var(--bg-orange) 0, var(--bg-orange-green) 50%, var(--bg-green));
+	content: "";
+	display: block;
+	height: 4px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	transition: width 0.75s ease;
+}
+
+.nav-toggled.nav-underline::after {
+	width: 0;
 }
 
 .btn-toggle .line-top {
@@ -70,7 +147,7 @@
 .btn-toggle * {
 	width: 100%;
 	border-bottom: 4px solid #000;
-	transition: transform .2s, opacity .2s;
+	transition: transform .2s, opacity .2s, border-color .2s;
 }
 
 .btn-toggle.btn-toggle-show .line-top {
@@ -81,15 +158,6 @@
 	transform: scaleX(0);
 }
 
-.ul-nav {
-	transition: background-color var(--anim-duration);
-	background-color: transparent;
-}
-
-.ul-nav.ul-toggled {
-	background-color: var(--bg-platinum);
-}
-
 @media (min-width: 851px) {
 	.ul-nav li {
 		opacity: 0;
@@ -98,45 +166,55 @@
 		pointer-events: none;
 	}
 
-  .ul-nav li:nth-child(1) {
-  	transform: translateX(480px);
-  	transition-delay: 240ms;
-  }
+	.ul-nav li:nth-child(1) {
+		transform: translateX(480px);
+		transition-delay: 240ms;
+	}
 
-  .ul-nav li:nth-child(2) {
-  	transform: translateX(400px);
-  	transition-delay: 200ms;
-  }
+	.ul-nav li:nth-child(2) {
+		transform: translateX(400px);
+		transition-delay: 200ms;
+	}
 
-  .ul-nav li:nth-child(3) {
-  	transform: translateX(320px);
-  	transition-delay: 160ms;
-  }
+	.ul-nav li:nth-child(3) {
+		transform: translateX(320px);
+		transition-delay: 160ms;
+	}
 
-  .ul-nav li:nth-child(4) {
-  	transform: translateX(240px);
-  	transition-delay: 120ms;
-  }
+	.ul-nav li:nth-child(4) {
+		transform: translateX(240px);
+		transition-delay: 120ms;
+	}
 
-  .ul-nav li:nth-child(5) {
-  	transform: translateX(160px);
-  	transition-delay: 80ms;
-  }
+	.ul-nav li:nth-child(5) {
+		transform: translateX(160px);
+		transition-delay: 80ms;
+	}
 
-  .ul-nav li:nth-child(6) {
-  	transform: translateX(80px);
-  	transition-delay: 40ms;
-  }
+	.ul-nav li:nth-child(6) {
+		transform: translateX(80px);
+		transition-delay: 40ms;
+	}
 
-  .ul-nav.ul-toggled li {
-  	opacity: 1;
-  	transform: translateX(0);
-  	transition-timing-function: ease-out;
-  	pointer-events: all;
-  }
+	.ul-nav.ul-toggled li {
+		opacity: 1;
+		transform: translateX(0);
+		transition-timing-function: ease-out;
+		pointer-events: all;
+	}
 }
-
 
 .btn-toggle.btn-toggle-show .line-bottom {
 	transform: rotate(45deg);
+}
+
+.navmodal {
+	right: 0;
+	height: calc(100vh - 70px);
+	bottom: 0;
+	transition: margin-right 0.25s ease;
+}
+
+.navmodal.navmodal-closed {
+	margin-right: -100%;
 }
