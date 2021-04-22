@@ -8,6 +8,7 @@
 <button
   class={`out-none flex items-center btn-illuminate`}
   style="margin-top: -3px;"
+  aria-label="Mode toggle button"
   on:click={() => dispatch("toggle")}
 >
   {#if lightMode}

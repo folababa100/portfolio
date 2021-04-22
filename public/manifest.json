@@ -15,6 +15,12 @@
 			"src": "fWhite512.png",
 			"type": "image/png",
 			"sizes": "512x512"
+		},
+		{
+			"src": "maskable.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
 		}
 	],
 	"start_url": ".",

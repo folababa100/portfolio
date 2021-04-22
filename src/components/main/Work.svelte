@@ -1,5 +1,5 @@
 <script>
-  import { Swiper, SwiperSlide } from "swiper/svelte";
+  export let lightMode;
 </script>
 
 <section id="work">
@@ -99,8 +99,8 @@
         <div class="col-span-1 lg:col-span-2">
           <div>
             <picture class="w-full h-full">
-              <source srcset="/images/2.avif" type="image/avif" />
-              <img src="/images/2.jpg" alt="Fotoflis" />
+              <source srcset={lightMode ? "/images/3.avif" : "/images/3White.avif"} type="image/avif" />
+              <img src={lightMode ? "/images/3.jpg" : "/images/3White.jpg"} alt="Fotoflis" />
             </picture>
           </div>
         </div>

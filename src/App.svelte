@@ -4,6 +4,7 @@
   import Main from "./components/main/index.svelte";
   import "./css/navbar.css";
   import "./css/switch.css";
+  import "./css/animate.css";
   import "./css/darkmode.css";
 
   let lightMode = true;
@@ -57,7 +58,7 @@
     <div>
       <Navbar on:toggle={onToggleMode} {lightMode} />
       <main class="main-site">
-        <Main />
+        <Main {lightMode} />
       </main>
     </div>
   {/if}

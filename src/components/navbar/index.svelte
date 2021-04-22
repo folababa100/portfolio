@@ -180,6 +180,7 @@
       </ul>
       <button
         class={`btn-toggle out-none mr-5 ${show ? "btn-toggle-show" : ""}`}
+        aria-label="Navmodal toggle button"
         on:click={onToggle}
       >
         <div class="line-top" />
@@ -203,6 +204,7 @@
     <li class="mr-3">
       <button
         class={`btn-toggle out-none ${showMobile ? "btn-toggle-show" : ""}`}
+        aria-label="Navmodal toggle button"
         on:click={onToggleMobile}
       >
         <div class="line-top" />
