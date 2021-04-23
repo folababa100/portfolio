@@ -18,7 +18,7 @@
 					<div class="col-span-6 md:col-span-8 lg:col-span-9">
 						<div class="mb-10">
 							<h3 class="mb-4 font-normal text-2xl md:text-3xl lg:text-5xl text-gray item-underline extended-line">
-								<a href="mailto:adekunbi@folababa.com">adekunbi@folababa.com</a>
+								<a href="mailto:adekunbi@folababa.dev">adekunbi@folababa.dev</a>
 							</h3>
 							<p class="text-gray mb-10">
 								Feel free to contact me if you have any question!
