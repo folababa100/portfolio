@@ -7,7 +7,7 @@ module.exports = {
   	content: [
   		"./src/**/*.svelte",
   	],
-  	enabled: process.env.NODE_ENV === "production" ? true : false
+  	enabled: true
   },
   theme: {
     extend: {},
