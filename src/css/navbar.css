@@ -216,7 +216,6 @@
 	transition: margin-right 0.25s ease, visibility 0.5s ease;
 }
 
-
 .navmodal.navmodal-closed {
 	margin-right: -100%;
 	visibility: hidden;
