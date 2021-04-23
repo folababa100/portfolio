@@ -7,7 +7,7 @@ module.exports = {
   	content: [
   		"./src/**/*.svelte",
   	],
-  	enabled: false
+  	enabled: true
   },
   theme: {
     extend: {},
