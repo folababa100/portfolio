@@ -177,7 +177,7 @@
           </ul>
         </div>
         <div class="col-span-4">
-          <h3 class="mb-8 text-2xl font-bold">AWS cloud expert</h3>
+          <h3 class="mb-8 text-2xl font-bold">Cloud expert</h3>
           <p class="mb-8">
             I am also an certified expert on the AWS cloud.
             <br />
@@ -213,6 +213,12 @@
                 class="text-green text-lg mr-2"
                 name="checkmark-done-outline"
               />Digitalocean
+            </li>
+            <li class="mb-4 flex items-center">
+              <ion-icon
+                class="text-green text-lg mr-2"
+                name="checkmark-done-outline"
+              />Firebase
             </li>
           </ul>
         </div>
