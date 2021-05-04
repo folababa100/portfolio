@@ -110,7 +110,7 @@
               <p class="mb-4">Featured Project</p>
               <h3 class="mb-8 text-3xl font-bold">My portfolio</h3>
               <div class="p-6 mb-4 bg-green text-white rounded m-minus-l-4">
-                My very porfolio which has a lot of information about me.
+                My very porfolio which has a lot of information about me. Also has a 100% score in 3 categories on chrome lighthouse.
               </div>
               <div class="mb-4">
                 <span class="mr-2">Svelte</span>
