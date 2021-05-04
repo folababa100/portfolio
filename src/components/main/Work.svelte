@@ -88,7 +88,7 @@
           <div>
             <picture class="w-full h-full">
               <source srcset="/images/1.avif" type="image/avif" />
-              <img src="/images/1.jpg" alt="Fotoflis" />
+              <img src="/images/1.jpg" alt="Arquibusco" />
             </picture>
           </div>
         </div>
@@ -100,7 +100,7 @@
           <div>
             <picture class="w-full h-full">
               <source srcset={lightMode ? "/images/3.avif" : "/images/3White.avif"} type="image/avif" />
-              <img src={lightMode ? "/images/3.jpg" : "/images/3White.jpg"} alt="Fotoflis" />
+              <img src={lightMode ? "/images/3.jpg" : "/images/3White.jpg"} alt="Folababa website" />
             </picture>
           </div>
         </div>

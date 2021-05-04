@@ -15,13 +15,10 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <div class="relative mb-8 lg:mb-0">
-        <img class="w-96 h-96 mx-auto lg:mx-0" src="/images/placeholder.jpg" alt="Personal" />
-        <!-- <img
-          class="w-80 h-80 absolute lg:block hidden"
-          style="top: 12rem; left: 12rem;"
-          src="/images/placeholder.jpg"
-          alt="Personal"
-        /> -->
+        <picture>
+          <source srcset="/images/folababa.webp" type="image/webp" />
+          <img class="h-full w-full sm:w-96 sm:h-96 mx-auto lg:mx-0" src="/images/folababa.jpg" alt="Personal" />
+        </picture>
       </div>
       <div class="w-full mx-auto">
         <label
@@ -37,7 +34,7 @@
           </div>
           <div class="flex items-center absolute sm:static label-div">
             <input on:change={onChange} type="checkbox" id="switch" />
-            <div class="label"></div>
+            <div class="label" />
           </div>
           <div
             class={`roboto-slab text-xl md:text-2xl mt-4 sm:mt-0 text-mode xl:text-3xl ${
@@ -59,12 +56,16 @@
             I am a student of the university of ilorin with the love of exploring,
             cardio excersices and gyming. Currently a work in progress.
           {:else}
-            I am currently working full time as a Freelancer and I am open to offers.
+            I am currently working full time as a Freelancer and I am open to
+            offers.
             <br />
             <br />
-            <a class="text-green hover:underline" href="https://drive.google.com/file/d/1A-MA2ePzAUs3MazAZrcsobXX-NlIOZFY/view?usp=sharing">
-							Here is a link to my resume.
-						</a>
+            <a
+              class="text-green hover:underline"
+              href="https://drive.google.com/file/d/1A-MA2ePzAUs3MazAZrcsobXX-NlIOZFY/view?usp=sharing"
+            >
+              Here is a link to my resume.
+            </a>
           {/if}
         </p>
       </div>
