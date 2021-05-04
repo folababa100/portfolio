@@ -62,7 +62,7 @@
             <br />
             <a
               class="text-green hover:underline"
-              href="https://drive.google.com/file/d/1A-MA2ePzAUs3MazAZrcsobXX-NlIOZFY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GjXDU1droNlCQ4A8xa4H-4RQhbmUgMJ4/view?usp=sharing"
             >
               Here is a link to my resume.
             </a>
