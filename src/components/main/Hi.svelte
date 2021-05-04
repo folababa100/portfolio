@@ -24,18 +24,18 @@
 					</p>
 				</blockquote>
 				<div class="flex items-center">
-					<button class="mr-4">
-						<a href="#twitter">
+					<button class="mr-4" aria-label="Twitter">
+						<a href="#twitter" aria-label="Twitter">
 							<ion-icon class="text-xl social-icon" name="logo-twitter" />
 						</a>
 					</button>
-					<button class="mr-4">
-						<a href="https://www.github.com/folababa100">
+					<button class="mr-4" aria-label="Github">
+						<a href="https://www.github.com/folababa100" aria-label="Github">
 							<ion-icon class="text-xl social-icon" name="logo-github" />
 						</a>
 					</button>
-					<button class="mr-4">
-						<a href="https://www.instagram.com/dekunbifola">
+					<button class="mr-4" aria-label="Instagram">
+						<a href="https://www.instagram.com/dekunbifola" aria-label="Instagram">
 							<ion-icon class="text-xl social-icon" name="logo-instagram" />
 						</a>
 					</button>

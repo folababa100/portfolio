@@ -68,9 +68,13 @@
     >
       <div class="h-full w-full justify-center items-center flex animate__animated animate__slideOutRight animate__slower animate__delay-2s">
         {#if lightMode}
-          <img src="/images/f.gif" class="h-40 w-40" alt="My Logo" />
+          <video width="500" height="500" class="h-40 w-40" alt="My Logo" autoplay="true" muted="true">
+            <source src="/images/f.mp4" type="video/mp4">
+          </video>
         {:else}
-          <img src="/images/fWhite.gif" class="h-40 w-40" alt="My Logo" />
+          <video width="500" height="500" class="h-40 w-40" alt="My Logo" autoplay="true" muted="true">
+            <source src="/images/fWhite.mp4" type="video/mp4">
+          </video>
         {/if}
       </div>
     </div>
