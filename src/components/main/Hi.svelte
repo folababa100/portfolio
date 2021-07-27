@@ -15,14 +15,6 @@
 				<span>in the digital world.</span>
 			</h1>
 			<div class="flex items-center mb-16 justify-between">
-				<blockquote>
-					<p>
-						The next big thing is the one that makes the last big thing usable.
-					</p>
-					<p class="text-gray">
-						Blake Ross, Co-creator of Mozilla firefox
-					</p>
-				</blockquote>
 				<div class="flex items-center">
 					<button class="mr-4" aria-label="Twitter">
 						<a href="#twitter" aria-label="Twitter">
