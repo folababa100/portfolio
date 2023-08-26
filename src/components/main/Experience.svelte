@@ -8,15 +8,17 @@
     <div>
       <div class="grid grid-cols-12 gap-4 items-center">
         <div class="col-span-4">
-          <p>July 2020 - November 2020</p>
+          <p>July 2017 - April 2023</p>
         </div>
         <div class="col-span-8">
           <div class="py-8 flex items-center justify-between">
             <div>
               <h3 class="text-3xl mb-6">
-                TsmLabs <span class="text-gray text-base">Remote</span>
+                Freelancer <span class="text-gray text-base"
+              >Ilorin, Nigeria</span
+              >
               </h3>
-              <p class="font-light text-lg">Frontend web developer</p>
+              <p class="font-light text-lg">Full stack web developer</p>
             </div>
             <div>
               <svg
@@ -35,22 +37,21 @@
               </svg>
             </div>
           </div>
-          <hr class="border-site" />
         </div>
       </div>
       <div class="grid grid-cols-12 gap-4 items-center">
         <div class="col-span-4">
-          <p>July 2017 -</p>
+          <p>February 2022 -</p>
         </div>
         <div class="col-span-8">
           <div class="py-8 flex items-center justify-between">
             <div>
               <h3 class="text-3xl mb-6">
-                Freelancer <span class="text-gray text-base"
-                  >Ilorin, Nigeria</span
-                >
+                Resility GmbH <span class="text-gray text-base">
+                Potsdam, Brandenburg, Germany
+              </span>
               </h3>
-              <p class="font-light text-lg">Full stack web developer</p>
+              <p class="font-light text-lg">Frontend web developer</p>
             </div>
             <div>
               <svg
@@ -219,6 +220,12 @@
                 class="text-green text-lg mr-2"
                 name="checkmark-done-outline"
               />Firebase
+            </li>
+            <li class="mb-4 flex items-center">
+              <ion-icon
+                class="text-green text-lg mr-2"
+                name="checkmark-done-outline"
+              />GitHub Actions
             </li>
           </ul>
         </div>

@@ -16,8 +16,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <div class="relative mb-8 lg:mb-0">
         <picture>
-          <source srcset="/images/folababa.webp" type="image/webp" />
-          <img class="h-full w-full sm:w-96 sm:h-96 mx-auto lg:mx-0" src="/images/folababa.jpg" alt="Personal" />
+          <source srcset="/images/folababa.webp" type="image/webp"/>
+          <img class="h-full w-full sm:w-96 sm:h-96 mx-auto lg:mx-0" src="/images/folababa.jpg" alt="Personal"/>
         </picture>
       </div>
       <div class="w-full mx-auto">
@@ -33,8 +33,8 @@
             Personal Mode
           </div>
           <div class="flex items-center absolute sm:static label-div">
-            <input on:change={onChange} type="checkbox" id="switch" />
-            <div class="label" />
+            <input on:change={onChange} type="checkbox" id="switch"/>
+            <div class="label"/>
           </div>
           <div
             class={`roboto-slab text-xl md:text-2xl mt-4 sm:mt-0 text-mode xl:text-3xl ${
@@ -46,20 +46,17 @@
         </label>
         <p class="mb-8 text-gray">
           {#if personalMode}
-            I started my journey into tech about 6 years ago. When I was
-            learning how to design graphics. From there I decided to dive into
-            the world of programming using javascript. From there on I have been
-            a self taught learner. Constantly learning new technologies and
-            building with those tools.
-            <br />
-            <br />
-            I am a student of the university of ilorin with the love of exploring,
-            cardio excersices and gyming. Currently a work in progress.
+            I am a self-taught front-end web developer. With a passion for building web applications that are
+            user-friendly and accessible. I also have extensive knowledge of cloud technologies like AWS.
+            I am a certified Solutions Architect, Developer Associate and Database Specialist.
+            <br/>
+            <br/>
+            I am also a student of the University of London Goldsmiths studying
+            Computer Science. I am fluent in English and I am currently learning German.
           {:else}
-            I am currently working full time as a Freelancer and I am open to
-            offers.
-            <br />
-            <br />
+            I am currently working full time as a frontend web developer and I am open to offers.
+            <br/>
+            <br/>
             <a
               class="text-green hover:underline"
               target="_blank"

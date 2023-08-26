@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import Navbar from "./components/navbar/index.svelte";
   import Main from "./components/main/index.svelte";
+  import "./css/utility.css";
   import "./css/navbar.css";
   import "./css/switch.css";
   import "./css/animate.css";
