@@ -17,7 +17,7 @@
       <div class="relative mb-8 lg:mb-0">
         <picture>
           <source srcset="/images/folababa.webp" type="image/webp"/>
-          <img class="h-full w-full sm:w-96 sm:h-96 mx-auto lg:mx-0" src="/images/folababa.jpg" alt="Personal"/>
+          <img class="h-full w-full sm:w-96 mx-auto lg:mx-0" src="/images/folababa.jpg" alt="Personal"/>
         </picture>
       </div>
       <div class="w-full mx-auto">
@@ -61,7 +61,7 @@
               class="text-green hover:underline"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1GjXDU1droNlCQ4A8xa4H-4RQhbmUgMJ4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1d58KufKS25qWjYF2J31VwapCG3t48a9i/view?usp=sharing"
             >
               Here is a link to my resume.
             </a>
