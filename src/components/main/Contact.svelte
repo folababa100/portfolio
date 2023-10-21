@@ -67,8 +67,17 @@
                 class="mr-6 sm:m-8 md:mr-12 block out-none"
                 href="https://www.hackerrank.com/dekunbifola100?hr_r=1"
               >
-                <img src={lightMode ? "/images/hackerrank.svg" : "/images/hackerrank-dark.svg"} class="h-5 mb-2" alt="Hackerrank logo" />
+                <img src={lightMode ? "/images/hackerrank.svg" : "/images/hackerrank-dark.svg"} class="h-5 mb-2 social-icon" alt="Hackerrank logo" />
                 <p class="text-base sm:text-lg md:text-xl font-light">Hackerrank</p>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                class="mr-6 sm:m-8 md:mr-12 block out-none"
+                href="https://www.upwork.com/freelancers/~01669dab45a4384101"
+              >
+                <img src={lightMode ? "/images/upwork.svg" : "/images/upwork-dark.svg"} class="h-6 mb-2 social-icon" alt="Upwork logo" />
+                <p class="text-base sm:text-lg md:text-xl font-light">Upwork</p>
               </a>
             </div>
           </div>

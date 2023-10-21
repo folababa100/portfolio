@@ -1,3 +1,7 @@
+<script>
+  export let lightMode;
+</script>
+
 <section id="hi">
   <div class="pt-12 sm:pt-20 pb-10">
     <div>
@@ -26,10 +30,18 @@
           </a>
           <a
             target="_blank"
+            class="mr-4"
             rel="noreferrer noopener"
             href="https://linkedin.com/in/adekunbi-adefolarin-887623186"
           >
             <ion-icon class="text-xl social-icon" name="logo-linkedin"/>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://www.upwork.com/freelancers/~01669dab45a4384101"
+          >
+            <img class="h-6 social-icon" src={lightMode ? "/images/upwork.svg" : "/images/upwork-dark.svg"} alt="Upwork logo" />
           </a>
         </div>
       </div>

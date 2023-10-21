@@ -61,7 +61,7 @@
               class="text-green hover:underline"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1d58KufKS25qWjYF2J31VwapCG3t48a9i/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wlRJzU1YTXsfqunhtigcDrcFeRaVQY5r/view?usp=sharing"
             >
               Here is a link to my resume.
             </a>

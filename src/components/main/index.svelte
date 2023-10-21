@@ -9,7 +9,7 @@
 </script>
 
 <div class="mx-auto container px-4 lg:px-12 xl:px-16 2xl:px-20">
-	<Hi />
+	<Hi {lightMode} />
 	<About />
 	<Experience />
 	<Work {lightMode} />
