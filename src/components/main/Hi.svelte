@@ -14,7 +14,7 @@
 					I'm a <span class="text-orange extended-line orange-underline item-underline">Full stack web developer.</span>
 				</span>
         <br class="hidden sm:block"/>
-        <span>with more than 5 years of real world experience.</span>
+        <span>with more than 6 years of experience.</span>
         <br class="hidden sm:block"/>
         <span>I am currently located in Cottbus, Germany. </span>
       </h1>
