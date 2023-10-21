@@ -13,5 +13,5 @@
 	<About />
 	<Experience />
 	<Work {lightMode} />
-	<Contact />
+	<Contact {lightMode} />
 </div>
