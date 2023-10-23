@@ -8,7 +8,7 @@
       <h2 class="mb-12 text-5xl font-bold item-underline extended-line">Contact me</h2>
     </div>
     <div class="bg-white-box py-16 px-4 default-shadow">
-      <div class="w-full md:w-9/12 lg:w-8/12 mx-auto">
+      <div class="w-full xl:w-8/12 mx-auto">
         <div class="grid-cols-6 grid md:grid-cols-12 gap-12 items-center">
           <div class="col-span-6 md:col-span-4 lg:col-span-3">
             <p>
@@ -42,11 +42,11 @@
               <p class="text-gray mb-10">Let's talk!</p>
               <hr class="border-site"/>
             </div>
-            <div class="flex items-center">
+            <div class="flex items-center justify-between">
               <a
                 target="_blank"
                 rel="noreferrer noopener"
-                class="mr-6 sm:m-8 md:mr-12 block out-none"
+                class="block out-none"
                 href="https://github.com/folababa100"
               >
                 <ion-icon class="text-xl social-icon" name="logo-github"/>
@@ -55,7 +55,7 @@
               <a
                 target="_blank"
                 rel="noreferrer noopener"
-                class="mr-6 sm:m-8 md:mr-12 block out-none"
+                class="block out-none"
                 href="https://linkedin.com/in/adekunbi-adefolarin-887623186"
               >
                 <ion-icon class="text-xl social-icon" name="logo-linkedin"/>
@@ -64,7 +64,7 @@
               <a
                 target="_blank"
                 rel="noreferrer noopener"
-                class="mr-6 sm:m-8 md:mr-12 block out-none"
+                class="block out-none"
                 href="https://www.hackerrank.com/dekunbifola100?hr_r=1"
               >
                 <img src={lightMode ? "/images/hackerrank.svg" : "/images/hackerrank-dark.svg"} class="h-5 mb-2 social-icon" alt="Hackerrank logo" />
@@ -73,7 +73,7 @@
               <a
                 target="_blank"
                 rel="noreferrer noopener"
-                class="mr-6 sm:m-8 md:mr-12 block out-none"
+                class="block out-none"
                 href="https://www.upwork.com/freelancers/~01669dab45a4384101"
               >
                 <img src={lightMode ? "/images/upwork.svg" : "/images/upwork-dark.svg"} class="h-6 mb-2 social-icon" alt="Upwork logo" />
