@@ -11,7 +11,7 @@
 				</span>
         <br class="hidden sm:block"/>
         <span>
-					I'm a <span class="text-orange extended-line orange-underline item-underline">Full stack web developer.</span>
+					I'm a <span class="text-orange extended-line orange-underline item-underline">Full stack engineer.</span>
 				</span>
         <br class="hidden sm:block"/>
         <span>with more than 6 years of experience.</span>

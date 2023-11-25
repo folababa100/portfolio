@@ -41,13 +41,13 @@
       </div>
       <div class="grid grid-cols-12 gap-4 items-center">
         <div class="col-span-4">
-          <p>February 2022 -</p>
+          <p>February 2022 - November 2023</p>
         </div>
         <div class="col-span-8">
           <div class="py-8 flex items-center justify-between">
             <div>
               <h3 class="text-3xl mb-6">
-                Resility GmbH <span class="text-gray text-base">
+                Mitigant <span class="text-gray text-base">
                 Potsdam, Brandenburg, Germany
               </span>
               </h3>
@@ -79,7 +79,7 @@
       <h2 class="mb-12 text-5xl font-bold">My skills</h2>
       <div class="grid grid-cols-4 lg:grid-cols-12 gap-16">
         <div class="col-span-4">
-          <h3 class="mb-8 text-2xl font-bold">Frontend web developer</h3>
+          <h3 class="mb-8 text-2xl font-bold">Frontend engineer</h3>
           <p class="mb-8">
             I love working on UI and frontend related projects.
             <br />
@@ -132,7 +132,7 @@
           </ul>
         </div>
         <div class="col-span-4">
-          <h3 class="mb-8 text-2xl font-bold">Backend web developer</h3>
+          <h3 class="mb-8 text-2xl font-bold">Backend engineer</h3>
           <p class="mb-8">
             I can build enterprise grade backend applications.
             <br />
