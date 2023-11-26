@@ -51,7 +51,7 @@
                 Potsdam, Brandenburg, Germany
               </span>
               </h3>
-              <p class="font-light text-lg">Frontend web developer</p>
+              <p class="font-light text-lg">Senior frontend engineer</p>
             </div>
             <div>
               <svg
