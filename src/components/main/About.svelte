@@ -46,13 +46,9 @@
         </label>
         <p class="mb-8 text-gray">
           {#if personalMode}
-            I am a self-taught front-end web developer. With a passion for building web applications that are
+            I am a self-taught full stack developer. With a passion for building web applications that are
             user-friendly and accessible. I also have extensive knowledge of cloud technologies like AWS.
             I am a certified Solutions Architect, Developer Associate and Database Specialist.
-            <br/>
-            <br/>
-            I am also a student of the University of London Goldsmiths studying
-            Computer Science. I am fluent in English and I am currently learning German.
           {:else}
             I am currently working full time as a frontend web developer and I am open to offers.
             <br/>
@@ -61,7 +57,7 @@
               class="text-green hover:underline"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1wlRJzU1YTXsfqunhtigcDrcFeRaVQY5r/view?usp=sharing"
+              href="https://drive.google.com/file/d/1U-foqFEJRqO3PQT9jJTZWddqzAX0rrTX/view?usp=sharing"
             >
               Here is a link to my resume.
             </a>
