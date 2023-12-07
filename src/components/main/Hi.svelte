@@ -7,7 +7,7 @@
     <div>
       <h1 class="text-4xl lg:text-5xl mb-8 tracking-wide title-h1">
 				<span>
-					Hi, My name is Adekunbi Adefolarin.
+					Hi, My name is Adefolarin Adekunbi.
 				</span>
         <br class="hidden sm:block"/>
         <span>
