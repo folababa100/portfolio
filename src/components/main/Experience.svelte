@@ -8,7 +8,7 @@
     <div>
       <div class="grid grid-cols-12 gap-4 items-center">
         <div class="col-span-4">
-          <p>July 2017 - April 2023</p>
+          <p>February 2018 - March 2023</p>
         </div>
         <div class="col-span-8">
           <div class="py-8 flex items-center justify-between">
