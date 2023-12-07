@@ -15,7 +15,7 @@
             <div>
               <h3 class="text-3xl mb-6">
                 Freelancer <span class="text-gray text-base"
-              >Ilorin, Nigeria</span
+              >Lagos, Lagos State, Nigeria</span
               >
               </h3>
               <p class="font-light text-lg">Full stack web developer</p>
