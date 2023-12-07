@@ -27,16 +27,16 @@
                 <span class="mr-2">MongoDB</span>
                 <span class="mr-2">Nextjs</span>
               </div>
-              <div>
-                <a
-                  href="https://www.habita365.com.br"
-                  class="block"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src="/images/external.svg" alt="Open in another tab" />
-                </a>
-              </div>
+<!--              <div>-->
+<!--                <a-->
+<!--                  href="https://www.habita365.com.br"-->
+<!--                  class="block"-->
+<!--                  target="_blank"-->
+<!--                  rel="noopener noreferrer"-->
+<!--                >-->
+<!--                  <img src="/images/external.svg" alt="Open in another tab" />-->
+<!--                </a>-->
+<!--              </div>-->
             </div>
           </div>
         </div>
@@ -75,16 +75,16 @@
                 <span class="mr-2">MongoDB</span>
                 <span class="mr-2">Nextjs</span>
               </div>
-              <div>
-                <a
-                  href="https://fotoflis.no"
-                  class="block"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src="/images/external.svg" alt="Open in another tab" />
-                </a>
-              </div>
+<!--              <div>-->
+<!--                <a-->
+<!--                  href="https://fotoflis.no"-->
+<!--                  class="block"-->
+<!--                  target="_blank"-->
+<!--                  rel="noopener noreferrer"-->
+<!--                >-->
+<!--                  <img src="/images/external.svg" alt="Open in another tab" />-->
+<!--                </a>-->
+<!--              </div>-->
             </div>
           </div>
         </div>
@@ -106,16 +106,16 @@
                 <!-- <span class="mr-2">MongoDB</span>
 										<span class="mr-2">Nextjs</span> -->
               </div>
-              <div>
-                <a
-                  href="https://folababa.dev"
-                  class="block"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src="/images/external.svg" alt="Open in another tab" />
-                </a>
-              </div>
+<!--              <div>-->
+<!--                <a-->
+<!--                  href="https://folababa.dev"-->
+<!--                  class="block"-->
+<!--                  target="_blank"-->
+<!--                  rel="noopener noreferrer"-->
+<!--                >-->
+<!--                  <img src="/images/external.svg" alt="Open in another tab" />-->
+<!--                </a>-->
+<!--              </div>-->
             </div>
           </div>
         </div>
