@@ -46,15 +46,20 @@
         </label>
         <p class="mb-8 text-gray">
           {#if personalMode}
+            I am a self-taught full stack engineer. With a passion for building web applications that are
+            user-friendly and accessible. I also have extensive knowledge of cloud technologies like AWS.
+            I am a certified Solutions Architect, Developer Associate and Database Specialist.
+            <br/>
+            I love going to the gym.
+          {:else}
             I am a full stack engineer with the MERN stack and a Cloud Expert with 3 advanced certifications in AWS. I
             have more than 6 years of experience designing and developing scalable and reliable enterprise solutions
             with focus on quality, reliability, and performance in various sectors such as Cloud Security, Real Estate,
             E-Commerce, Card Management, Consulting and Data Management. Although my past roles have predominantly been
             frontend-focused, over the years, I have mastered full-stack software engineering best and modern practices
             such as TDD, Clean Coding, OOP, Cloud Native, CI/CD, Solution and Architectural Design, and Observability.
-          {:else}
-            I am currently working full time as a frontend web developer and I am open to offers.
             <br/>
+            Current looking for a role as a Full stack engineer or a Frontend engineer.
             <br/>
             <a
               class="text-green hover:underline"
