@@ -32,7 +32,7 @@
             target="_blank"
             class="mr-4"
             rel="noreferrer noopener"
-            href="https://linkedin.com/in/adekunbi-adefolarin-887623186"
+            href="https://www.linkedin.com/in/folababa/"
           >
             <ion-icon class="text-xl social-icon" name="logo-linkedin"/>
           </a>
