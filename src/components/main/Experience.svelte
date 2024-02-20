@@ -18,30 +18,29 @@
               >Lagos, Lagos State, Nigeria</span
               >
               </h3>
-              <p class="font-light text-lg">Full stack web developer</p>
-            </div>
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 17l-4 4m0 0l-4-4m4 4V3"
-                />
-              </svg>
+              <p class="font-light text-lg">Full stack engineer</p>
             </div>
           </div>
         </div>
       </div>
       <div class="grid grid-cols-12 gap-4 items-center">
         <div class="col-span-4">
-          <p>February 2022 - November 2023</p>
+          <p>June 2021 - February 2022</p>
+        </div>
+        <div class="col-span-8">
+          <div class="py-8 flex items-center justify-between">
+            <div>
+              <h3 class="text-3xl mb-6">
+                Resility GmbH
+              </h3>
+              <p class="font-light text-lg">Frontend engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4 items-center">
+        <div class="col-span-4">
+          <p>February 2022 - December 2023</p>
         </div>
         <div class="col-span-8">
           <div class="py-8 flex items-center justify-between">
@@ -52,22 +51,6 @@
               </span>
               </h3>
               <p class="font-light text-lg">Senior frontend engineer</p>
-            </div>
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 17l-4 4m0 0l-4-4m4 4V3"
-                />
-              </svg>
             </div>
           </div>
         </div>
