@@ -31,7 +31,7 @@
           <div class="py-8 flex items-center justify-between">
             <div>
               <h3 class="text-3xl mb-6">
-                Resility GmbH
+                Habita365
               </h3>
               <p class="font-light text-lg">Frontend engineer</p>
             </div>
@@ -46,7 +46,7 @@
           <div class="py-8 flex items-center justify-between">
             <div>
               <h3 class="text-3xl mb-6">
-                Mitigant <span class="text-gray text-base">
+                Resility GmbH <span class="text-gray text-base">
                 Potsdam, Brandenburg, Germany
               </span>
               </h3>
